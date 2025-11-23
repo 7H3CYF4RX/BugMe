@@ -84,7 +84,7 @@
 
 ```bash
 # Navigate to BugMe directory
-cd /home/viruz/Tools/BUG-ME
+cd /home/user/Tools/BugMe
 
 # Install dependencies
 pip install -r requirements.txt
